@@ -1,0 +1,161 @@
+body{
+	font-family: 'Karla', sans-serif;
+	background: hsl(204, 43%, 93%);
+	padding: 60px 7%;
+}
+div{
+	padding: 15px 20px;
+	
+}
+#about{
+	background: white;
+	margin: 0;
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+}
+#prices{
+	background: hsl(179, 62%, 43%);
+	margin: 0;
+	padding-bottom: 32px;
+}
+#abovesignup{
+	margin-bottom: 32px;
+}
+#whyus{
+ 	background: hsl(179, 52%, 56%);
+	margin: 0;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
+h1{
+	font-size: 20px;
+	color:hsl(179, 62%, 43%);
+}
+h2{
+	font-size: 16px;
+	color: hsl(71, 73%, 54%);
+}
+h3,span,p{
+	color: white;
+}
+p{
+	font-size: 14px;
+}
+span{
+	font-size: 36px;
+}
+a{
+	color: white;
+	text-decoration: none;
+	background:hsl(71, 73%, 54%); 
+	padding: 12px 104px;
+	border-radius: 5px;
+}
+ul>p{
+	text-decoration: none;
+	color: hsl(204, 43%, 93%);
+	margin-left: -40px;
+	line-height: 5px;
+}
+
+#about>p{
+	color: hsl(218, 22%, 67%);
+	line-height: 25px;
+}
+#prices>p:nth-child(3){
+	color: hsl(204, 43%, 93%);
+	float: right;
+	margin-right: 120px;
+}
+.attribution>a{
+	border-radius: 0;
+	padding:0;
+	color: hsl(228, 45%, 44%);
+	background: transparent;
+}
+
+
+@media screen and (min-width: 950px){
+	div{
+		display: inline-block;
+	}
+	#about{
+		padding: 10px 50px 10px 30px;
+		line-height: 20px;
+	}
+	#prices{
+		padding: 10px 50px 50px 30px;
+		width: 40%;
+		border-bottom-left-radius: 5px;
+	}
+	#whyus{
+		padding: 10px 50px 50px 30px;
+		float: right;
+		width: 40%;
+		height: 217px;
+		border-bottom-left-radius: 0;
+	}
+	h1{
+		margin-bottom: 40px;
+		font-size: 36px;
+	}
+	h2,h3{
+		font-size: 24px;
+	}
+	span{
+		font-size: 40px;
+	}
+	a{
+		margin-left: 10px;
+		padding: 12px 120px; 
+	}
+	#about>p{
+		font-size: 20px;
+	}
+	#prices>p{
+		font-size: 20px;
+	}
+	#whyus>p{
+		font-size: 20px;
+	}
+	#prices>p:nth-child(3){
+		margin-top: 15px;
+		margin-right: 150px;
+	}
+	ul>p{
+		margin-left:-20px;
+		font-size: 18px;
+	}
+}
+@media screen and (min-width: 1440px){
+	body{
+		padding: 60px 10%;
+	}
+	#about{
+		height:266px;
+	}
+	#prices{
+		padding: 10px 50px 50px 60px; 
+		width: 40.3%;
+	}
+	#whyus{
+		padding: 10px 60px 50px 50px;
+		width: 40.3%;
+		height: 226px;
+	}
+	#prices>p:nth-child(3){
+		margin-top: 12px;
+		margin-right: 290px;
+	}
+	a{
+		font-size: 24px;
+		margin-left: 0px;
+		padding: 15px 160px;
+	}
+	ul>p{
+		line-height: 5px;
+	}
+	.attribution>a{
+	font-size:16px 
+}
+}
