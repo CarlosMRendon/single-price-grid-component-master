@@ -139,9 +139,10 @@ ul>p{
 		width: 40.3%;
 	}
 	#whyus{
-		padding: 10px 60px 50px 50px;
-		width: 40.3%;
+		padding: 10px 0px 50px 40px;
+		width: 39.2%;
 		height: 226px;
+		margin-right: 10.6%;
 	}
 	#prices>p:nth-child(3){
 		margin-top: 12px;
