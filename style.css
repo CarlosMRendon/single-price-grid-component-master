@@ -136,13 +136,12 @@ ul>p{
 	}
 	#prices{
 		padding: 10px 50px 50px 60px; 
-		width: 40.3%;
+		width: 43.38%;
 	}
 	#whyus{
 		padding: 10px 0px 50px 40px;
-		width: 39.2%;
+		width: 43.38%;
 		height: 226px;
-		margin-right: 10.6%;
 	}
 	#prices>p:nth-child(3){
 		margin-top: 12px;
@@ -158,5 +157,18 @@ ul>p{
 	}
 	.attribution>a{
 	font-size:16px 
+	}
 }
+@media screen and (min-width: 1920px){
+	#whyus{
+		margin-right: 10.6%;
+		width:39.2%;
+	}
+	#prices{
+		width: 40.3%
+	}
+	#prices>p:nth-child(3){
+		margin-top: 12px;
+		margin-right: 420px;
+	}
 }
