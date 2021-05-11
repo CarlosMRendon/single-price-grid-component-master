@@ -13,6 +13,10 @@ div{
 	border-top-right-radius: 6px;
 	border-top-left-radius: 6px;
 }
+.container{
+	margin:0;
+	padding: 0;
+}
 #prices{
 	background: hsl(179, 62%, 43%);
 	margin: 0;
@@ -83,15 +87,24 @@ ul>p{
 		padding: 10px 50px 10px 30px;
 		line-height: 20px;
 	}
+	.container{
+		max-width: 1358.32px;
+		margin: 0;
+		padding: 0;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 0px;
+
+	}	
 	#prices{
 		padding: 10px 50px 50px 30px;
-		width: 40%;
+		
 		border-bottom-left-radius: 5px;
 	}
 	#whyus{
 		padding: 10px 50px 50px 30px;
 		float: right;
-		width: 40%;
+		
 		height: 217px;
 		border-bottom-left-radius: 0;
 	}
@@ -136,11 +149,11 @@ ul>p{
 	}
 	#prices{
 		padding: 10px 50px 50px 60px; 
-		width: 43.38%;
+		
 	}
 	#whyus{
 		padding: 10px 0px 50px 40px;
-		width: 43.38%;
+		
 		height: 226px;
 	}
 	#prices>p:nth-child(3){
@@ -157,18 +170,5 @@ ul>p{
 	}
 	.attribution>a{
 	font-size:16px 
-	}
-}
-@media screen and (min-width: 1920px){
-	#whyus{
-		margin-right: 10.6%;
-		width:39.2%;
-	}
-	#prices{
-		width: 40.3%
-	}
-	#prices>p:nth-child(3){
-		margin-top: 12px;
-		margin-right: 420px;
 	}
 }
